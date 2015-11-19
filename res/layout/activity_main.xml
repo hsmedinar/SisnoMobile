@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/txtnombre"
+        style="@drawable/fieldtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fieldtext"
+        android:drawableLeft="@drawable/icon_name"
+        android:drawablePadding="10dp"
+        android:hint="@string/nombre"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtpapellido"
+        style="@drawable/fieldtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fieldtext"
+        android:drawableLeft="@drawable/icon_paterno"
+        android:drawablePadding="10dp"
+        android:hint="@string/apellidoPaterno"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/txtmapellido"
+        style="@drawable/fieldtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fieldtext"
+        android:drawableLeft="@drawable/icon_materno"
+        android:drawablePadding="10dp"
+        android:hint="@string/apellidoMaterno"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        style="@drawable/fieldtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fieldtext"
+        android:drawableLeft="@drawable/icon_email"
+        android:drawablePadding="10dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/txttelefono"
+        style="@drawable/fieldtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fieldtext"
+        android:drawableLeft="@drawable/icon_phone"
+        android:drawablePadding="10dp"
+        android:hint="@string/telefono"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray" />
+    
+    <com.stbig.sisnoandroid.data.MultiSelectionSpinner  
+        android:id="@+id/mySpinner1"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:background="@color/white"
+        android:padding="5dp" /> 
+
+    <TextView
+        android:id="@+id/stienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/fieldtext"
+        android:drawableLeft="@drawable/icon_store_row"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="Seleccione tienda"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/sptienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/efecto"
+        android:text="@string/registrar"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btncontinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/efecto"
+        android:text="@string/continuar"
+        android:textColor="@color/white" />
+
+</LinearLayout>

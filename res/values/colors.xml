@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bluelight">#169AF4</color>
+    <color name="cake">#EDF2F4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="bluelow">#D2E6F3</color>
+    <color name="red">#D90000</color>
+    <color name="wine">#990000</color>
+    <color name="orange">#FF3300</color>    
+    
+</resources>

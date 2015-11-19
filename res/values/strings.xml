@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SysnoMobile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nombre">Ingrese Nombre</string>
+    <string name="apellidoPaterno">Ingrese A. Paterno</string>
+    <string name="apellidoMaterno">Ingrese A. Materno</string>
+    <string name="email">Ingrese Email</string>
+    <string name="telefono">Ingrese Telefono</string>
+    <string name="registrar">Registrar</string>
+    <string name="continuar">Continuar</string>
+    
+    <string name="db">sisnodb</string>
+    
+    <!-- URL -->
+    <string name="url_tiendas">http://www.sysnomobile.com/Android/tienda.php</string>
+    <string name="url_registro">http://www.sysnomobile.com/Android/cliente.php</string>    
+    <string name="url_notificaciones">http://www.sysnomobile.com/Android/notificacion.php</string>
+    <string name="url_imagen">http://www.sysnomobile.com/imgnotificacion/NOTIFICACION_</string>
+    
+    <!-- fields -->
+    <string name="fnombres">nombres</string>
+    <string name="fpaterno">paterno</string>
+    <string name="fmaterno">materno</string>
+    <string name="femail">email</string>
+    <string name="fcelular">celular</string>
+    <string name="faccion">accion</string>
+    <string name="fnoticodigo">not_Codigo</string>
+    <string name="fmegusta">valormegusta</string>
+    <string name="ftie_Codigo">tie_Codigo</string>
+    <string name="iditienda">iditienda</string>
+    
+    
+    
+    
+    
+    
+    
+    <!-- errors -->
+    <string name="error_empty_field">Campo no puede estar vacio</string>
+    <string name="error_valid_account">Email no es valido</string>
+    
+    
+    <!-- Tabs -->
+    
+    <string name="title_notifications">Novedades</string>
+    <string name="title_stores">Tiendas</string>
+    
+    
+    <!--empty data Tabs -->
+    
+    <string name="empty_notifications">Ofertas estaran disponibles</string>
+    <string name="empty_stores">Tiendas estaran disponibles</string>
+    
+    <!--Preferences Tag -->
+    
+    <string name="tag_register">tag_register</string>
+    
+    
+    
+
+</resources>
